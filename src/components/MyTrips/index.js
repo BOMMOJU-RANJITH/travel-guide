@@ -24,7 +24,7 @@ class MyTrips extends Component {
   render() {
     const jwtToken = Cookies.get('jwt_token')
     if (jwtToken === undefined) {
-      return <Redirect to="/login" />
+      return <Redirect to='/login' />
     }
 
     const {trips} = this.state
@@ -33,16 +33,16 @@ class MyTrips extends Component {
     return (
       <>
         <Header />
-        <div className="my-trips-container">
-          <h2 className="my-trips-title">My Trips</h2>
+        <div className='my-trips-container'>
+          <h2 className='my-trips-title'>My Trips</h2>
           {trips.length === 0 ? (
-            <div className="no-trips-view">
-              <h3 className="no-trips-heading">No upcoming trips.</h3>
-              <p className="no-trips-description">
+            <div className='no-trips-view'>
+              <h3 className='no-trips-heading'>No upcoming trips.</h3>
+              <p className='no-trips-description'>
                 When you book a trip, you will see your trip details here.
               </p>
               <button
-                className="book-trip-button"
+                className='book-trip-button'
                 onClick={() => history.push('/')}
               >
                 Book a new trip
@@ -50,15 +50,15 @@ class MyTrips extends Component {
             </div>
           ) : (
             trips.map(trip => (
-              <div className="trip-card" key={trip.id}>
-                <div className="trip-details">
-                  <h3 className="trip-location">{trip.endLocation}</h3>
-                  <p className="trip-date">
+              <div className='trip-card' key={trip.id}>
+                <div className='trip-details'>
+                  <h3 className='trip-location'>{trip.endLocation}</h3>
+                  <p className='trip-date'>
                     Date: {trip.startDate} to {trip.endDate}
                   </p>
                 </div>
                 <button
-                  className="cancel-button"
+                  className='cancel-button'
                   onClick={() => this.handleCancel(trip.id)}
                 >
                   Cancel
