@@ -1,0 +1,115 @@
+.confirmation-box,
+.success-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-box p,
+ul {
+  margin: 10px 0;
+  color: black;
+}
+
+.success-box {
+  text-align: center;
+}
+
+.success-box .checkmark {
+  font-size: 40px;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.success-box h2 {
+  color: rgb(57, 227, 57);
+}
+
+.success-box p {
+  color: rgb(33, 118, 33);
+}
+.btn-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.my-trips-container {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.my-trips-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.trip-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.trip-location {
+  font-size: 20px;
+  color: #1f2937;
+}
+
+.trip-date {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.cancel-button {
+  background-color: transparent;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.cancel-button:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* No Trips View */
+.no-trips-view {
+  text-align: center;
+  margin-top: 100px;
+  color: #64748b;
+}
+
+.no-trips-image {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.no-trips-heading {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #334155;
+}
+
+.no-trips-description {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.book-trip-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+}

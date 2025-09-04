@@ -1,0 +1,50 @@
+.hero-text {
+  max-width: 500px;
+}
+
+#h1 {
+  font-size: xx-large;
+  margin-bottom: 1%;
+}
+
+#p {
+  font-size: larger;
+  margin-bottom: 1.5%;
+  color: #4a4a4a;
+}
+
+.primary-btn {
+  background-color: #2c4469;
+  color: white;
+  border: none;
+  padding: 1.5%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-image {
+  max-width: 400px;
+  height: auto;
+}
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-image {
+    margin-top: 2rem;
+    max-width: 300px;
+  }
+} */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  max-width: 1200px;
+  margin: auto;
+}
