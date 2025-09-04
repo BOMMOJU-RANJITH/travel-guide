@@ -31,13 +31,12 @@
   color: #ffffff;
   border-radius: 8px;
   padding: 12px 24px;
-  width: 352px;          /* keep fixed width */
-  margin: 16px auto 0;   /* auto left/right margin centers it */
+  width: 352px; /* keep fixed width */
+  margin: 16px auto 0; /* auto left/right margin centers it */
   cursor: pointer;
   border: none;
-  display: block;        /* ensures margin auto works */
+  display: block; /* ensures margin auto works */
 }
-
 
 .heading {
   color: #334155;

@@ -7,7 +7,6 @@
   font-family: sans-serif;
 }
 
-
 .logo {
   color: white;
   font-size: 30px;
@@ -16,11 +15,10 @@
   margin-right: 30%;
 }
 
-
 .nav-links {
   list-style: none;
   display: flex;
-  margin: auto; 
+  margin: auto;
 }
 
 .nav-button {
@@ -29,7 +27,6 @@
   font-weight: 500;
   margin: 12px;
 }
-
 
 .logout-btn {
   background-color: white;
